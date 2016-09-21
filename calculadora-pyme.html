@@ -1,0 +1,115 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script>
+		var clasificacion, monto, categoria;
+		function calcular(){
+
+			monto = $('#ventas').val();
+			categoria = $('#categoria').val();
+			
+
+			if(categoria === "Agropecuario"){
+				clasificacion = "Tu empresa no clasifica como PyME";
+				if(monto<=160000000){
+					clasificacion = "Mediana - Tramo 2";
+				}if(monto<=100000000){
+					clasificacion = "Mediana - Tramo 1";
+				}if(monto<=13000000){
+					clasificacion = "Pequeña";
+				}if(monto<=2000000){
+					clasificacion = "Micro";
+				}
+			}			
+
+			if(categoria === "Industria y Minería"){
+				clasificacion = "Tu empresa no clasifica como PyME";
+				if(monto<=510000000){
+					clasificacion = "Mediana - Tramo 2";
+				}if(monto<=360000000){
+					clasificacion = "Mediana - Tramo 1";
+				}if(monto<=45500000){
+					clasificacion = "Pequeña";
+				}if(monto<=7500000){
+					clasificacion = "Micro";
+				}
+			}
+			if(categoria === "Comercio"){
+				clasificacion = "Tu empresa no clasifica como PyME";
+				if(monto<=650000000){
+					clasificacion = "Mediana - Tramo 2";
+				}if(monto<=450000000){
+					clasificacion = "Mediana - Tramo 1";
+				}if(monto<=55000000){
+					clasificacion = "Pequeña";
+				}if(monto<=9000000){
+					clasificacion = "Micro";
+				}
+			}
+			if(categoria === "Servicios"){
+				clasificacion = "Tu empresa no clasifica como PyME";
+				if(monto<=180000000){
+					clasificacion = "Mediana - Tramo 2";
+				}if(monto<=125000000){
+					clasificacion = "Mediana - Tramo 1";
+				}if(monto<=15000000){
+					clasificacion = "Pequeña";
+				}if(monto<=2500000){
+					clasificacion = "Micro";
+				}
+			}
+			if(categoria === "Construcción"){
+				clasificacion = "Tu empresa no clasifica como PyME";
+				if(monto<=270000000){
+					clasificacion = "Mediana - Tramo 2";
+				}if(monto<=180000000){
+					clasificacion = "Mediana - Tramo 1";
+				}if(monto<=22500000){
+					clasificacion = "Pequeña";
+				}if(monto<=3500000){
+					clasificacion = "Micro";
+				}
+			}
+
+			$('.test').html(clasificacion);
+
+		}
+
+	</script>
+
+	<div style="width:70%;margin:30px">
+		<div class="form-group">	
+		  <label for="sel1">Seleccioná la categoría de tu empresa:</label>
+		  <select class="form-control" id="categoria">
+		    <option>Agropecuario</option>
+		    <option>Industria y minería</option>
+		    <option>Comercio</option>
+		    <option>Servicios</option>
+		    <option>Construcción</option>
+		  </select>
+		</div>
+
+		<label for="usr">Ingresá tus ventas totales anuales (sin puntos):</label>
+		<div class="input-group">
+
+			<span class="input-group-addon">$</span>
+		    <input type="text" class="form-control" placeholder="" id="ventas"/>
+		</div>
+		<br>
+
+		<button type="submit" class="btn btn-info" onclick="calcular()">Calcula tu categoria</button>
+
+
+
+		<div class="test"></div>
+	</div>
+</body>
+</html>

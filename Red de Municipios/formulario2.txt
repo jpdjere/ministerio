@@ -1,0 +1,75 @@
+<h2 class="blog-post-title">I. Información de usuario</h2>
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div class="col-xs-12 col-sm-12 col-md-6">
+[text* gobiernolocal placeholder "Ingrese el nombre del gobierno local"]Gobierno local:[/text*]
+[text* provincia]Provincia:[/text*]
+[text* nombreapellido placeholder "Apellido/s, Nombre/s"]Apellido y Nombre:[/text*]
+[text* cargo]Cargo que ocupa:[/text*]
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6">
+[text* domicilio]Domicilio laboral:[/text*]
+[email* email]Email[/email*]
+[text twitter placeholder "Opcional"]Twitter:[/text]
+</div>
+</div>
+
+
+<h2 class="blog-post-title" style="float: left;margin-top: 30px;
+    
+    width: 100%;">II. Información del Gobierno local:</h2>
+
+[text* gobiernolocal id:gobiernolocal placeholder "Ingrese el nombre completo del gobierno local"]Gobierno local:[/text*]
+
+[text* intendente id:intendente placeholder "Ingrese el nombre del intendente."]Ingrese el nombre completo del intendente:[/text*]
+
+[select* tipogoblocal id:tipogoblocal "Municipio de primera categoría" "Municipio de segunda categoría" "Municipio de tercera categoría" "Comuna" "Presidencia rural"]Seleccione el tipo de gobierno local:[/select*]
+
+[text* habitantes id:gobiernolocal placeholder "Ingrese cantidad de habitantes según Censo 2010"]Cantidad de habitantes del gobierno local: [/text*]
+
+
+[select* dependencias id:dependencias "Sí" "No"]¿Posee alguna dependencia con atribuciones en temas productivos?[/select*]
+
+[text dependencias2 dependencias2 placeholder]En caso afirmativo, ingrese su nombre: [/text]
+
+[select dependencias3 id:dependencias3 "Sí" "No"]¿Depende directamente del intendente?[/select]
+
+[text dependencias4 dependencias4 ]En caso negativo, especifique el rango jerárquico que posee en el organigrama municipal: [/text]
+
+[textarea tipodeproduccion id:tipodeproduccion placeholder "Indicar si la dependencia tiene a su cargo la producción primaria (agricultura, ganadería, pesca, minería, etc), secundaria (industrial), y/o terciaria (servicios y comercio)."]Indique en qué áreas productivas tiene injerencia dicha dependencia[/textarea]
+
+[select* normativa id:normativa "Sí" "No"]¿Posee normativa que la constituya?: [/select*]
+
+[textarea id:normativa2 id:normativa2 placeholder "Indicar tipo de normativa y número. Dejar en blanco en caso contrario"]Normativa que lo constituye:[/textarea]
+
+[select* tareas id:tareas "Sí" "No"]¿Desarrolla el área exclusivamente tareas específicas del sector productivo, o desarrolla también otras funciones?[/select*]
+
+[text personal id:personal placeholder "Indicar la cantidad de recursos humanos disponibles en el área."]Cantidad de personal a cargo del área:[/text]
+
+[text personalprofesional id:personalprofesional placeholder "Indicar la cantidad de recursos humanos profesionales disponibles en el área."]Cantidad de personal profesional en el área:[/text]
+
+[text computadoras id:computadoras placeholder "Indicar la cantidad de computadoras disponibles en el área"]¿Cuántas computadoras tiene disponible el área?[/text]
+
+[select* planproductivo id:planproductivo "Sí" "No"]¿Posee el municipio algún plan estratégico productivo vigente?[/select*]
+
+[text planproductivo2 id:planproductivo2]En caso afirmativo, ingrese el nombre del mismo:[/text]
+
+[select planproductivo2 id:planproductivo2 "Sí" "No"]¿Lo implementa?[/select]
+
+
+[text planproductivo3 id:planproductivo3]¿En qué año fue revisado por última vez?[/text]
+
+[select* articulacion id:articulacion "Sí" "No"]¿Participa el gobierno local de instancias de articulación con el sector productivo local?[/select*]
+
+[textarea articulacion2 id:articulacion2 placeholder "Indicar de qué tipo de instancia se trata: una agencia de desarrollo local, un foro económico-social, audiencias públicas, etc.]En caso afirmativo, indicar qué tipo de instancia:[/textarea]
+
+[text articulacion3 id:articulacion3]¿Con qué periodicidad se realiza esa instancia?[/text]
+
+[select* intermunicipal "Sí" "No"]¿Han realizado algún tipo de articulación en políticas productivas con otro municipio en los últimos 4 años?[/select*]
+
+[textarea intermunicipal2 id:intermunicipal2]Desarrolle una breve descripción de la misma:[/textarea]
+
+[text* actividadproductiva id:actividadproductiva]¿Cuál es la actividad productiva más importante en su municipio?[/text*]
+
+[text* actividadproductiva2 id:actividadproductiva2]¿Cuáles son los recursos potenciales que identifican que tiene el municipio para su desarrollo productivo?[/text*]
+
+[submit "Enviar"]

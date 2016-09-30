@@ -1,0 +1,23 @@
+
+[collapsibles]
+
+[collapse title="¿Cómo se accede?" active="true"]
+
+[/collapse]
+
+[collapse title="Más información"]
+
+[/collapse]
+
+[/collapsibles]
+
+
+BOTON AL FORMULARIO UNICO
+
+<p style="text-align:center">
+
+[button target="_blank" type="info" size="lg" link="http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/financiamiento/mostrar_formulario/form_entrada/WBCS/57ec32800ac6952ed7d81d7e" class="btn btn-info"] Ingresar al formulario[/button]
+</p>
+
+
+[button target="_blank" type="info" size="lg" link="http://www.accionpyme.mecon.gob.ar/dna2bpm/user/login" class="btn btn-info"] Ingresar al formulario[/button]

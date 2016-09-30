@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>CASAS DE LA PRODUCCIÓN</name>
+		<description><![CDATA[Ministerio de Producción]]></description>
+		<Folder>
+			<name>Casas de Producción</name>
+			<Placemark>
+				<name>Bahía Blanca 141</name>
+				<description><![CDATA[<table><tr><td>BAHIA BLANCA</td><td>Mitre 141</td><td>Ente de la Zona Franca B.Blanca Cnel Rosales</td><td></td><td>Mauro Martín Etcheverry</td><td>0291-15-4261054</td><td>etmauro@hotmail.com</td><td></td><td>Guillermina Rizzo</td><td>011-15-69358480</td><td>guillerminarizzo@gmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-58.4810885,-34.6317033,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pres. Quintana 56</name>
+				<description><![CDATA[<table><tr><td>Quintana 56 – Junin</td><td>Sec. De Economia y Producción</td><td></td><td>Andreína Cirigliano</td><td>0236-15-4573458</td><td>andreinacirigliano@yahoo.com</td><td></td><td>Ines Bassagaisteguy</td><td>0236-15-4225782</td><td>inebassa@hotmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-60.943722200000025,-34.591065,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Falucho 2381</name>
+				<description><![CDATA[<table><tr><td>Falucho 2381</td><td>Sec. De Desarrollo Productivo</td><td></td><td>Daniel Alberto Gonzalez Gomez</td><td>02266-15-635939</td><td>bgsaustral@hotmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-57.54921619999999,-38.0062507,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bv. Alsina 515</name>
+				<description><![CDATA[<table><tr><td>Calle Alsina 515 (Ciudad de Pergamino)</td><td>Sec. De Producción y Desarrollo Económico</td><td></td><td>Marcelo Fabián Mariotti</td><td>02477-15-684710</td><td>mfm.acevedo@gmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-60.5698266,-33.8898399,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hipólito Yrigoyen 2289</name>
+				<description><![CDATA[<table><tr><td>Hipolito Yrygoyen 2289.</td><td>Sede Instituto de Fomento Empresarial ,(IFE)</td><td></td><td>Maria Thea Belaustegui</td><td>0379-15-4590759</td><td>lic.belaustegui@gmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-59.26263640000002,-29.16009399999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Av. 9 de Julio 280</name>
+				<description><![CDATA[<table><tr><td>Av. 9 de Julio 280</td><td>Min. De la Producción</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-65.1053627,-43.2958692,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Barraquero 130</name>
+				<description><![CDATA[<table><tr><td>Julian Barranquero 130.</td><td>Instituto de Desarrollo Industrial Tecnológico y de Servicio</td><td></td><td>Alejandro Martinez</td><td>0261-15-56163444</td><td>admartinez07@hotmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-68.84059709999997,-32.90153410000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Martín 1495</name>
+				<description><![CDATA[<table><tr><td>San Martín 1495</td><td>Min. De Industria</td><td></td><td>Nancy Tognola</td><td>03752-15-620200</td><td>nancytognola@hotmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-55.89029519999997,-27.3663619,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Belgrano 398</name>
+				<description><![CDATA[<table><tr><td>Belgrano 398</td><td>Min. De Producción y Turismo de la Provincia del Neuquén</td><td></td><td>Guillermo Antonio Gancedo</td><td>0299-15-5834023</td><td>guigancedo@hotmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-67.99827399999998,-38.9365547,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 de Octubre</name>
+				<description><![CDATA[<table><tr><td>12 de Octubre 52</td><td>Subs. De Empleo y PYMES</td><td></td><td>Agustín Arroyo</td><td>011-15-39152277</td><td>arroyoagustin@gmail.com</td><td></td><td>Maximiliano Pfaffenbauer</td><td>0294-15-4818987</td><td>maxpfaffen@gmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-71.29245220000001,-41.13309539999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centro Cívico</name>
+				<description><![CDATA[<table><tr><td>Centro Cívico Grand Bourg, Av. De Los Incas S/N</td><td>Salta</td><td></td><td>Maria Ximena Lopez Dominguez</td><td>0387-15-4150690</td><td>ximenalopezdominguez@hotmail.com.ar</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-65.44865700000003,-24.782039,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Av. Roca Sur 768</name>
+				<description><![CDATA[<table><tr><td>Roca 768</td><td>Santiago del Estero</td><td></td><td>Maria Ledesma Alegre</td><td>0385-15-4977003</td><td>marialedesma81@hotmail.com</td></tr></table>]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-64.25525700000003,-27.785934,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1899-0288D1-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

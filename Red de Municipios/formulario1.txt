@@ -1,0 +1,20 @@
+<h2 class="blog-post-title">I. Información de contacto</h2>
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div class="col-xs-12 col-sm-12 col-md-6">
+[text* gobiernolocal placeholder "Ingrese el nombre del gobierno local"]Gobierno local:[/text*]
+[text* provincia]Provincia:[/text*]
+[text* nombreapellido placeholder "Apellido/s, Nombre/s"]Apellido y Nombre:[/text*]
+[text* cargo]Cargo que ocupa:[/text*]
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6">
+[text* domicilio]Domicilio laboral:[/text*]
+[email* email]Email[/email*]
+[text twitter placeholder "Opcional"]Twitter:[/text]
+
+
+</div>
+</div>
+
+<div style="font-size:20px"><b>Confirmo que soy funcionario del área a cargo de Producción (o áreas similares) de mi gobierno local:</b><span>[acceptance comprobacion-funcionario id:comprobacion-funcionario]</span></div>
+
+[submit "Enviar"]

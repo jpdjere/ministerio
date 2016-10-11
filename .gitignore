@@ -1,6 +1,9 @@
 *.doc
+*.docx
 *.jpg
 *.png
 *.pdf
 *.zip
 *.sql
+*.xls
+*.xlsx

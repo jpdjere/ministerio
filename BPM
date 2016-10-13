@@ -1,0 +1,22 @@
+BPM
+
+Modulos
+
+user
+dashboard,
+inbox (mail)
+adiminstrador de menu, permite crearlos
+calendarios
+gitmod
+qr: leer y crear
+crear pdfs
+presentacion de mapas
+single sign on (log con facebook, obama. oauth2)
+redmine
+rest (modulos para exponer servicios rest)
+ssl
+ui
+
+En produccion hay un equipo de 42 personas evaluando los procesos para ver como simplifcarlos y dps se los pasan a Borda para bajarlo a BPM.
+
+Se esta laburando la integracion con EE, que permite caratular y otras cosas, pero parte del proceso, por ejemplo, hasta que hay un dictamen de un jurado solo lo puede hacer DNA2BPM y no el sistema de modernizacion.

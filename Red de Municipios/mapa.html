@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <style>
+            #map_canvas {
+                width: 600px;
+                height: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map_canvas"></div>  
+        <script>
+        $(document).ready(function () {
+        var map;
+        var elevator;
+        var infoWindows = [];
+        var myOptions = {
+
+            //center: new google.maps.LatLng(0, 0),
+            mapTypeId: 'terrain',
+            zoom: 4,
+            center: {lat: -39.137183, lng: -64.946540}
+        };
+        map = new google.maps.Map($('#map_canvas')[0], myOptions);
+
+        var addresses = ['El Maitén, Chubut','Villa Constitución, Santa Fe','San Carlos de Bariloche, Rio Negro','BAHIA BLANCA, BUENOS AIRES','Gaiman, Chubut','El Hoyo, Chubut','Gaiman, Chubut','AVELLANEDA, SANTA FE','Pérez, Santa Fe','Pergamino, Buenos Aires','La Plata, Buenos Aires','CONCEPCIÓN DEL URUGUAY, ENTRE RÍOS','Perez, Santa Fe ','RAMALLO, BUENOS AIRES','OLAVARRIA, Buenos Aires','VILLA GOBERNADOR GALVEZ, Santa Fe','Bragado, Buenos Aires','Felicia, Santa Fe','San Jaime de la Frontera, Entre Rios','calingasta, san juan','Bransden, Buenos Aires','Ituzaingo , Buenos Aires ','LANTERI, SANTA FE','LA RIOJA, LA RIOJA','Ramona, Santa Fe','MARCOS JUÁREZ, CÓRDOBA','Chacabuco, Buenos Aires','Puerto Madryn, Chubut','Quilmes, Buenos Aires'];
+
+        for (var x = 0; x < addresses.length; x++) {
+            $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
+                var p = data.results[0].geometry.location
+                var latlng = new google.maps.LatLng(p.lat, p.lng);
+                var provincia = data.results[0].address_components[2].long_name;
+                var provinciaOK = provincia.replace("Province","");
+
+
+                var infowindow = new google.maps.InfoWindow({
+                  content: "Municipio de " + data.results[0].address_components[0].long_name + ", "+provinciaOK
+                });
+                infoWindows.push(infowindow);
+                
+                for (var i=0;i<infoWindows.length;i++) {
+                   infoWindows[i].close();
+                }
+                
+                var marker = new google.maps.Marker({
+                    position: latlng,
+                    map: map
+                });
+
+
+
+            });
+        }
+
+        });
+        </script>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhZbdiGBHw-uT3qC7tQO2jc3CHzp0L0L8">
+        </script>
+    </body>
+</html>

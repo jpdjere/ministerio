@@ -39,16 +39,19 @@
                 });
                 infoWindows.push(infowindow);
                 
-                for (var i=0;i<infoWindows.length;i++) {
-                   infoWindows[i].close();
-                }
-                
                 var marker = new google.maps.Marker({
                     position: latlng,
                     map: map
                 });
 
-
+                marker.addListener('click', function() {
+                    /*Cierro las infowindows abiertas*/
+                    for (var i=0;i<infoWindows.length;i++) {
+                       infoWindows[i].close();
+                    }
+                    /*Abro la infowindow sobre la que clickee*/                    
+                    infowindow.open(map, marker);
+                });
 
             });
         }

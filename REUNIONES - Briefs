@@ -1,9 +1,40 @@
+13/12/10 - Reporte de Frentes Abiertos a Juan
+
+0) Ya pedí la dirección consultas@produccion.gob.ar para Celeste, va a tardar aproximadamente una semana.
+
+1) Convoy - Financiamiento: ya analicé lo que mandaron, mañana lo discutimos en la reunión con ellos. Sebastián vuelve la semana que viene, apenas vuelve arreglamos para jutnarnos todos.
+
+	* Cual es la diferencia entre lo que está haciendo Balaclav y este pibe Sebastián? Demasiado gente laburando en el look and feel ahora. 
+		SOLO FINANCIAMIENTO
+
+2) Francolino: Capacitacion de Drupal, la plataforma. Dice que no la van a tomar ellos, sino que están reeducando a todos los que hacen front-end para que cada uno haga la migración.
+
+hernandez
+
+
+
+Feedback para Convoy DNA - Fondo Semilla
+
+  * Muy bueno el look and feel en general. A lo mejor habría que alinearlo a los lineamientos de Carla (especialmente la landing/login), pero es algo fácil de hacer.
+
+  		Lo más difícil de lograr va a ser el Social Login. Vamos a tener que pelearlo para que se pueda. Recordar el tema de que DNA exige CUIT para entrar.
+  
+  * Dashboard: cuál es la lógica de Tareas y Casos? Los casos son los trámites/programas abiertos? Para qué van a servir las tareas?
+
+  * Mucho mejor los pasos para suscripcion a Programas. Uno de los problemas más grandes es que la gente se pierde una vez que:
+  		 arranca y no termina el trámite
+  		 termina el trámite y no puede hacer el seguimiento (está siendo tramitado por algun actor del Estado)
+
+  	Yo pondría más explicación sobre qué es cada Ronda, en qué consiste y los pasos a seguir para completar la suscripción y recibir el Financiamiento. 
+
+
+
+
+12/10/2016: 
 TO-DO 2:
   1) Responderle a Convoy con copia a Juan con dudas
 
   2) Formulario, escribirle a sesbastian de mobeats, estamos trabajando en UX del formulario y queremos saber como viene, para implemetarle un par de cosas de Frontend. Organizar una reunion para ver como podemos integrar las cosas que esta desarrollando Convoy. Enviarle ya el mockup de Convoy? Incluir a Convoy en la reunion?
-
-  3) 
 
 
 
@@ -42,6 +73,10 @@ Avanzar con la migracion a MODERNIZACION
 
 Casas de la Produccion:
 	Voy a avanzar con el desarrollo del micrositio con Francolino
+
+
+
+
 
 
 REUNION CON CONVOY

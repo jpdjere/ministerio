@@ -32,7 +32,7 @@
 
 			if(categoria === "Industria y Minería"){
 				clasificacion = "Tu empresa no clasifica como PyME";
-				if(monto<=510000000){
+				if(monto<=540000000){
 					clasificacion = "Mediana - Tramo 2";
 				}if(monto<=360000000){
 					clasificacion = "Mediana - Tramo 1";
@@ -79,37 +79,38 @@
 				}
 			}
 
-			$('.test').html(clasificacion);
+			$('.test').html("La categoría de tu empresa es: "+clasificacion);
 
 		}
 
 	</script>
+	<div style="text-align:center">
+		<div style="width:70%;margin:30px">
+			<div class="form-group">	
+			  <label for="sel1">Seleccioná la categoría de tu empresa:</label>
+			  <select class="form-control" id="categoria">
+			    <option>Agropecuario</option>
+			    <option>Industria y minería</option>
+			    <option>Comercio</option>
+			    <option>Servicios</option>
+			    <option>Construcción</option>
+			  </select>
+			</div>
 
-	<div style="width:70%;margin:30px">
-		<div class="form-group">	
-		  <label for="sel1">Seleccioná la categoría de tu empresa:</label>
-		  <select class="form-control" id="categoria">
-		    <option>Agropecuario</option>
-		    <option>Industria y minería</option>
-		    <option>Comercio</option>
-		    <option>Servicios</option>
-		    <option>Construcción</option>
-		  </select>
+			<label for="usr">Ingresá tus ventas totales anuales (sin puntos):</label>
+			<div class="input-group">
+
+				<span class="input-group-addon">$</span>
+			    <input type="text" class="form-control" placeholder="" id="ventas"/>
+			</div>
+			<br>
+
+			<button type="submit" class="btn btn-info" onclick="calcular()">Calcula tu categoria</button>
+
+
+
+			<div class="test" style="text-align:center;font-size:32px;background-color:#dedede;border-radius:15px;width: 50%;margin:0 auto;margin-top:40px;padding:15px"></div>
 		</div>
-
-		<label for="usr">Ingresá tus ventas totales anuales (sin puntos):</label>
-		<div class="input-group">
-
-			<span class="input-group-addon">$</span>
-		    <input type="text" class="form-control" placeholder="" id="ventas"/>
-		</div>
-		<br>
-
-		<button type="submit" class="btn btn-info" onclick="calcular()">Calcula tu categoria</button>
-
-
-
-		<div class="test"></div>
 	</div>
 </body>
 </html>

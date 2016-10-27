@@ -1,0 +1,142 @@
+<div class="col-md-6">
+<label for="empresa">Nombre o razón social de la empresa:</label>
+     [text* empresa]
+</div>
+
+<div class="col-md-6">
+<label for="cuit-empresa">CUIT de la empresa: (sin guiones)</label>
+    [text* cuit-empresa]
+    <p>Ejemplo: 30221117598</p>
+</div>
+
+
+ <div class="col-md-6">
+<label for="provincia">	Provincia:</label>
+   [select* provincia "CABA" "Buenos Aires" "Catamarca" "Chaco" "Chubut" "Córdoba" "Corrientes" "Entre Ríos" "Formosa" "Jujuy" "La Pampa" "La Rioja" "Mendoza" "Misiones" "Neuquén" "Río Negro" "Salta" "San Luis" "San Juan" "Santa Cruz" "Santa Fe" "Santiago del Estero" "Tierra del Fuego" "Tucumán"]
+</div>
+
+  <div class="col-md-6">
+<label for="localidad">	Localidad:</label>
+   [text* localidad]
+</div>
+
+<div class="col-md-6">
+<label for="actividad_empresa">Actividad de la empresa:</label>
+   [text* actividad_empresa]
+</div>
+
+<div class="col-md-6">
+<label for="contacto">Nombre y apellido de la persona de contacto:</label>
+   [text* contacto]
+</div>
+
+<div class="col-md-12">
+<label for="telefono">Teléfono de contacto:</label>
+   [tel* telefono placeholder "Formato: 011 4349 3509"]
+</div>
+
+
+<div class="col-md-12">
+<label for="celular">Celular de contacto:</label>
+   [tel* celular placeholder "Formato: 011 15 5311 3509"]
+</div>
+
+<div class="col-md-12">
+<label for="email">Dirección de e-mail:</label>
+   [email* email]
+</div>
+
+
+<div class="col-md-12">
+<label for="tipo_proyecto">Tipo de proyecto:</label>
+      [select* tipo_proyecto "Desarrollo de producto" "Comunicación estratégica"]
+</div>
+
+<div class="col-md-12">
+<label for="nombre_proyecto">Nombre del proyecto:</label>
+   [text* nombre_proyecto]
+</div>
+
+<div class="col-md-12">
+<label for="descripcion">Breve descripción del proyecto (no más de 300 caracteres):</label>
+   [textarea* descripcion]
+</div>
+
+<div class="col-md-12">
+<label for="diseniador">¿Tiene un diseñador en el equipo?:</label>
+      [select* diseniador "Sí" "No"]
+</div>
+
+
+
+
+<h1 style="margin-top:20px">Datos del diseñador</h1>
+<p>Estos datos no son obligatorios. Sólo complételos si cuenta con un diseñador.</p>
+
+<div class="col-md-6">
+<label for="dis_razonsocial">Razón social:</label>
+   [text dis_razonsocial]
+</div>
+
+<div class="col-md-6">
+<label for="dis_cuit">CUIT: (Sin guiones)</label>
+   [text dis_cuit]
+   <p>Ejemplo: 30221117598</p>
+</div>
+
+<div class="col-md-6">
+<label for="dis_iva">Condición ante IVA:</label>
+      [select iva "Monotributista" "Responsable inscripto"]
+</div>
+
+<div class="col-md-6">
+<label for="dis_nombre">Nombre:</label>
+   [text dis_nombre]
+</div>
+
+<div class="col-md-12">
+<label for="dis_titulogrado">Título de grado:</label>
+      [select dis_titulogrado "Diseñador/a Gráfico" "Diseñador/a Industrial" "Diseñador/a de Indumentaria" "Diseñador/a Textil" "Diseñador/a de Imagen y Sonido" "Diseñador/a Multimedia" "Diseñador/a de Marcas y Envases" "Diseñador/a de Interiores" "Diseñador/a en Comunicación Visual" "Arquitecto/a" "Otros"]
+</div>
+
+<div class="col-md-12">
+<label for="dis_provincia">	Provincia:</label>
+   [select dis_provincia "CABA" "Buenos Aires" "Catamarca" "Chaco" "Chubut" "Córdoba" "Corrientes" "Entre Ríos" "Formosa" "Jujuy" "La Pampa" "La Rioja" "Mendoza" "Misiones" "Neuquén" "Río Negro" "Salta" "San Luis" "San Juan" "Santa Cruz" "Santa Fe" "Santiago del Estero" "Tierra del Fuego" "Tucumán"]
+</div>
+
+<div class="col-md-12">
+<label for="dis_localidad">Localidad:</label>
+   [text dis_localidad]
+</div>
+
+<div class="col-md-6">
+<label for="dis_telefono">Teléfono de contacto:</label>
+   [tel dis_telefono placeholder "Formato: 011 4349 3509"]
+</div>
+
+
+<div class="col-md-6">
+<label for="dis_celular">Celular de contacto:</label>
+   [tel dis_celular placeholder "Formato: 011 15 5311 3509"]
+</div>
+
+<div class="col-md-12">
+<label for="email">Dirección de e-mail:</label>
+   [email email]
+</div>
+
+
+<h2 style="margin:10 0">Bases y condiciones:</h2>
+<p>Lea las bases y condiciones:</p>
+<a href=""></a>
+
+
+<p style="text-align:center">
+	<a href="http://www.produccion.gob.ar/wp-content/uploads/2016/10/1A-Bases-y-Condiciones-Pymes-D-1-1.pdf" target="_blank">
+		<div class="btn btn-info">Bases y Condiciones</div>
+	</a>
+</p>
+
+<p>Exprese su conformidad con las bases y condiciones clickeando el casillero: [acceptance bases]</p>
+
+[submit "Enviar"]

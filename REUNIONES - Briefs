@@ -1,4 +1,76 @@
-13/12/10 - Reporte de Frentes Abiertos a Juan
+PASAR TODO A YANADO
+
+28/10/2016: Reunión Convoy-DNA (Borda)
+
+-Dos alternativas planteadas:
+  1) Engine para generar formularios con Drag and Drop
+  2) Diseño y maquetado de Dashboards para los distintos roles.
+
+Como viene el resto de la discusión con Modernización? Social Login, etc, qué siguen pidiendo?
+
+Fran y Felip(DNA) se van a poner con el tema 
+
+
+
+
+
+28/10/2016: Reunión Convoy Sebastian
+
+Formulario FONAPYME
+-En qué estado está? Cuando podría salir?
+-UI/UX, entiendo que no funciona dentro de DNA, como podemos involucrar a Convoy en mejorarlo?
+
+Se divide enter las que accedieron a Creditos Bancarios y los otros con Regimen Bancario.
+3 pantallas. La segunda es la segudna parte del formulario, la tercera el mail de respuesta.
+
+Avanzar con el wizard:
+Un camino o le otro: prestamo de mas de un millon, menos. Divide.
+
+
+
+
+
+
+
+
+
+28/10/2016: Emiliano Tablero
+
+La cuestión es decidir entre iFrame y una tabla html nativa tomando datos de algún lugar (que pueda ser responsive.)
+A charlarlo el Martes en la reunión
+
+
+
+
+
+
+
+20/10/2016: Sello del Buen Disenio
+
+www.produccion.gob.ar/disenio/
+Quieren dos formlarios de preinscripcion.
+Que se genere un id automatico (pedirle a francolino la solucion) y que se envie la respuesta por mail.
+Va a enviar varios adjuntos el mail automatico y pedir que lo envien a tal lugar.
+
+
+
+
+
+
+
+20/10/2016: Portal de Datos de STP
+
+Investigar la data que nos pasaron
+Investigar otros ejemplos de portales de datos abiertos.
+Contratar a alguien para el desarrollo de los contenidos y Big Data
+Reunion Lunes 
+
+
+
+
+
+
+13/10/2016 - Reporte de Frentes Abiertos a Juan
 
 0) Ya pedí la dirección consultas@produccion.gob.ar para Celeste, va a tardar aproximadamente una semana.
 
@@ -10,6 +82,9 @@
 2) Francolino: Capacitacion de Drupal, la plataforma. Dice que no la van a tomar ellos, sino que están reeducando a todos los que hacen front-end para que cada uno haga la migración.
 
 hernandez
+
+
+
 
 
 

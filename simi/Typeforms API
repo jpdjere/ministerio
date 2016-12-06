@@ -1,0 +1,24 @@
+Typeforms API
+
+API:
+52bc074ab498f5f65b97fa7dc625b9d9915b3d4d
+
+UID:
+
+IkA8x2
+
+
+Accessing Results / Making Requests
+
+Once you’ve got the UID of the typeform and your API key, you’ve got everything you need to start making requests to the Data API, and start fetching your results.
+
+The URL of your request takes the following format:
+
+https://api.typeform.com/v1/form/[typeform_UID]?key=[your_API_key]
+https://api.typeform.com/v1/form/IkA8x2?key=52bc074ab498f5f65b97fa7dc625b9d9915b3d4d
+
+
+
+for(var i = 0;i <48;i++){
+	console.log(a.responses[i].answers)
+}

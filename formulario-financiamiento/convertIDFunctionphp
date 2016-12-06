@@ -1,0 +1,72 @@
+<?php
+
+function convertID($arg_1)
+{
+	switch ($arg_1) {
+	    case 38007591:
+	        return "razon_social";
+	    case 38007599:
+	        return "tipo_sociedad";
+	    case 38007592:
+	        return "cuit";
+	    case 38007658:
+	        return "provincia";
+	    case 38007593:
+	        return "nombre_contacto";
+	    case 38007594:
+	        return "cargo";
+	    case 38007595:
+	        return "telefono";
+	    case 38007660:
+	        return "mail";
+	    case 38007661:
+	        return "compartir_efis";
+
+	}
+}
+
+?>
+
+
+id="cargo"
+id="telefono"
+id="mail"
+$id = 'compartir_efis'  si/no
+$id = 'bancos_otros'  bancos
+$id = 'sector_actividad'  lista
+$id = 'cat_agropecuario'
+$id = 'cat_industria'
+$id = 'cat_mineria'
+$id = 'cat_industria_mineria'
+$id = 'cat_comercio'
+$id = 'cat_servicios'
+$id = 'cat_construccion'
+$id = 'tiene_prestamos'
+$id = 'clasificacion_deudores'
+$id = 'tiene_tramite'
+$id = 'destino_prestamo'
+$id = 'sectores_proyecto'
+$id = 'parque_industria'
+$id = 'monto_prestamo'
+
+
+Pyme no bancario
+$id = 'concurso_homologado';
+$id = 'sectores_proyecto_nobanc';
+$id = 'destino_prestamo_nobanc';
+
+Montos
+$id = 'monto_solicitado_bienes_cap';
+$id = 'monto_solicitado_inversion_prod';
+$id = 'monto_solicitado_otros';
+
+Gran Empresa
+$id = 'destino_prestamo_gran';
+$id = 'sectores_proyecto_gran';
+$id = 'monto_prestamo_gran';
+$id = 'situacion_2_gran';
+$id = 'deuda_afip_gran';
+$id = 'signo_negativo_gran';
+$id = 'endeudamiento_gran';
+$id = 'liquidez_gran';
+$id = 'capital_trabajo';

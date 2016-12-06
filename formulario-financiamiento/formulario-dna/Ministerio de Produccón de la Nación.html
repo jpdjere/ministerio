@@ -1,0 +1,881 @@
+<!-- saved from url=(0131)http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/financiamiento/mostrar_formulario/form_entrada/YNIZ/5846de480ac6959e1772d1eb -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>Ministerio de Produccón de la Nación</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="./Ministerio de Produccón de la Nación_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="./Ministerio de Produccón de la Nación_files/estilo.css" rel="stylesheet">
+  <link href="./Ministerio de Produccón de la Nación_files/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="./Ministerio de Produccón de la Nación_files/css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/assets/images/cropped-Escudo-01.png" rel="shortcut icon" type="image/png">
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/jquery.min.js">
+  </script>
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/bootstrap.min.js">
+  </script>
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/jquery.maskedinput.js">
+  </script>
+  <script type="text/javascript">
+  var base_url = "http://sepyme.produccion.gob.ar/dna2bpm/"; 
+  </script>
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/campos_aux.js">
+  </script>
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/formulario_principal2.js">
+  </script>
+  <script type="text/javascript" src="styles.js"></script>
+  <title>Documento sin título</title>
+</head>
+<body>
+  <div class="col-sm-12 contenedor">
+
+    <header>
+      <div class="cabezal">
+        <a class="logo" href="http://www.produccion.gob.ar/"><img src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/Logo-ministerio.png" width="260"></a>
+      </div>
+      <div class="slide">
+        <div class="imagen">
+          <h2 class="titulo-slide">FINANCIAMIENTO</h2>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="tituloGroup row" id="tituloGroup">
+      <div class="fondoDeTitulos col-md-8 col-md-offset-2">
+        <p class="entry-title titulo">
+          Buscador de Créditos
+        </p>
+        <p class="subtitulo">Te ayudamos a encontrar la mejor opción de financiamiento para tu PyME</p>
+        <p style="text-align:center">
+          <button class='btn btn-info' onclick="startFormulario();">Comenzá</button>
+        </p>
+      </div>
+    </div>
+
+    <section class="formulario_unico">
+
+
+
+      <div class="col-sm-12 preguntas" id="preguntas">
+        <form action="http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/financiamiento/continuar_flujo" class="formulario" id="formulario_principal" method="post" name="formulario_principal">
+          <fieldset>
+            <!-- Campos ocultos -->
+            <input name="idwf" type="hidden" value="form_entrada">
+            <input name="idcase" type="hidden" value="YNIZ">
+            <input name="token" type="hidden" value="5846de480ac6959e1772d1eb">
+            <!-- Datos Generales -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+              <label class="control-label" for="razon_social">Razón Social</label> <input class="form-control" id="razon_social" name="razon_social" placeholder="" required="" type="text">
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+              <label class="control-label" for="tipo_sociedadInput">Tipo de Sociedad</label> <select class="form-control" id="tipo_sociedad2" name="tipo_sociedad" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  S.R.L
+                </option>
+                <option value="1">
+                  S.A.
+                </option>
+                <option value="2">
+                  S. Simple
+                </option>
+                <option value="3">
+                  Unipersonal
+                </option>
+                <option value="4">
+                  Cooperativa
+                </option>
+                <option value="5">
+                  Clúster
+                </option>
+                <option value="6">
+                  Unión Transitoria
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+              <label class="control-label" for="cuit">Cuit:</label> <input class="form-control" id="cuit" name="cuit" required="">
+              <p class="help-block">Sin guiones ni espacios</p>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6" id="provincia">
+              <label class="control-label" for="provincia_implementacion">Provincia de Implementación del proyecto</label> <select class="form-control" id="provincia2" name="provincia" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  Buenos Aires
+                </option>
+                <option value="1">
+                  Catamarca
+                </option>
+                <option value="2">
+                  Chaco
+                </option>
+                <option value="3">
+                  Chubut
+                </option>
+                <option value="4">
+                  Cordoba
+                </option>
+                <option value="5">
+                  Corrientes
+                </option>
+                <option value="6">
+                  Entre Rios
+                </option>
+                <option value="7">
+                  Formosa
+                </option>
+                <option value="8">
+                  Jujuy
+                </option>
+                <option value="9">
+                  La Pampa
+                </option>
+                <option value="10">
+                  La Rioja
+                </option>
+                <option value="11">
+                  Mendoza
+                </option>
+                <option value="12">
+                  Misiones
+                </option>
+                <option value="13">
+                  Neuquen
+                </option>
+                <option value="14">
+                  Rio Negro
+                </option>
+                <option value="15">
+                  Salta
+                </option>
+                <option value="16">
+                  San Juan
+                </option>
+                <option value="17">
+                  San Luis
+                </option>
+                <option value="18">
+                  Santa Cruz
+                </option>
+                <option value="19">
+                  Santa Fe
+                </option>
+                <option value="20">
+                  Santiago del Estero
+                </option>
+                <option value="21">
+                  Tierra del Fuego
+                </option>
+                <option value="22">
+                  Tucuman
+                </option>
+                <option value="23">
+                  Ciudad Autónoma de Buenos Aires
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+              <label class="control-label" for="nombre_contacto">Nombre de Contacto</label> <input class="form-control" id="nombre_contacto" name="nombre_contacto" placeholder="" required="" type="text">
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+              <label class="control-label" for="cargo">Cargo</label> <input class="form-control" id="cargo" name="cargo" placeholder="" required="" type="text">
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6" id="">
+              <label class="control-label" for="telefono">Teléfono</label> <input class="form-control" id="telefono" name="telefono" placeholder="" required="" type="tel">
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6" id="mail">
+              <label class="control-label" for="mail">E-mail</label> <input class="form-control" id="mail" name="mail" placeholder="" required="" type="email">
+            </div><!-- EFIS -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6" id="compartir_efis">
+              <label class="control-label" for="compartir_efis">¿Acepta usted que compartamos esta información con Bancos para generar alternativas de financiamiento?</label> <select class="form-control" id="compartir_efis2" name="compartir_efis" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6" id="bancos_otros">
+              <div class="form-group">
+                <label class="control-label" for="bancos_otros">Seleccione el/los bancos con los cuales trabaja para futuras lineas disponibles</label>
+                <div class="bancos_otros input-checkbox">
+                  <input class="form-control" id="bancos_otros-checkbox-text" placeholder="Seleccione una opción" type="text">
+                  <div class="contenedor-checkboxes">
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-0" name="bancos_otros[]" type="checkbox" value="0"> <span class="checkbox-label">Ninguna de las opciones</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-1" name="bancos_otros[]" type="checkbox" value="1"> <span class="checkbox-label">INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-2" name="bancos_otros[]" type="checkbox" value="2"> <span class="checkbox-label">CITIBANK N.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-3" name="bancos_otros[]" type="checkbox" value="3"> <span class="checkbox-label">BBVA BANCO FRANCÉS S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-4" name="bancos_otros[]" type="checkbox" value="4"> <span class="checkbox-label">BANCO DE LA PROVINCIA DE CÓRDOBA S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-5" name="bancos_otros[]" type="checkbox" value="5"> <span class="checkbox-label">BANCO SUPERVIELLE S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-6" name="bancos_otros[]" type="checkbox" value="6"> <span class="checkbox-label">BANCO DE LA CIUDAD DE BUENOS AIRES</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-7" name="bancos_otros[]" type="checkbox" value="7"> <span class="checkbox-label">BANCO PATAGONIA S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-8" name="bancos_otros[]" type="checkbox" value="8"> <span class="checkbox-label">BANCO HIPOTECARIO S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-9" name="bancos_otros[]" type="checkbox" value="9"> <span class="checkbox-label">BANCO DE SAN JUAN S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-10" name="bancos_otros[]" type="checkbox" value="10"> <span class="checkbox-label">BANCO DEL TUCUMÁN S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-11" name="bancos_otros[]" type="checkbox" value="11"> <span class="checkbox-label">BANCO MUNICIPAL DE ROSARIO</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-12" name="bancos_otros[]" type="checkbox" value="12"> <span class="checkbox-label">BANCO SANTANDER RÍO S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-13" name="bancos_otros[]" type="checkbox" value="13"> <span class="checkbox-label">BANCO DEL CHUBUT S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-14" name="bancos_otros[]" type="checkbox" value="14"> <span class="checkbox-label">BANCO DE SANTA CRUZ S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-15" name="bancos_otros[]" type="checkbox" value="15"> <span class="checkbox-label">BANCO DE LA PAMPA SOCIEDAD DE ECONOMÍA MIXTA</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-16" name="bancos_otros[]" type="checkbox" value="16"> <span class="checkbox-label">BANCO DE CORRIENTES S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-17" name="bancos_otros[]" type="checkbox" value="17"> <span class="checkbox-label">BANCO PROVINCIA DEL NEUQUÉN S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-18" name="bancos_otros[]" type="checkbox" value="18"> <span class="checkbox-label">HSBC BANK ARGENTINA S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-19" name="bancos_otros[]" type="checkbox" value="19"> <span class="checkbox-label">BANCO CREDICOOP COOPERATIVO LIMITADO</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-20" name="bancos_otros[]" type="checkbox" value="20"> <span class="checkbox-label">BANCO ITAÚ ARGENTINA S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-21" name="bancos_otros[]" type="checkbox" value="21"> <span class="checkbox-label">BANCO PROVINCIA DE TIERRA DEL FUEGO</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-22" name="bancos_otros[]" type="checkbox" value="22"> <span class="checkbox-label">BANCO MACRO S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-23" name="bancos_otros[]" type="checkbox" value="23"> <span class="checkbox-label">BANCO COMAFI S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-24" name="bancos_otros[]" type="checkbox" value="24"> <span class="checkbox-label">BANCO DE INVERSIÓN Y COMERCIO EXTERIOR S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-25" name="bancos_otros[]" type="checkbox" value="25"> <span class="checkbox-label">NUEVO BANCO DE LA RIOJA S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-26" name="bancos_otros[]" type="checkbox" value="26"> <span class="checkbox-label">NUEVO BANCO DEL CHACO S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-27" name="bancos_otros[]" type="checkbox" value="27"> <span class="checkbox-label">BANCO DE FORMOSA S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-28" name="bancos_otros[]" type="checkbox" value="28"> <span class="checkbox-label">BANCO DE SANTIAGO DEL ESTERO S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-29" name="bancos_otros[]" type="checkbox" value="29"> <span class="checkbox-label">NUEVO BANCO DE SANTA FE S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-30" name="bancos_otros[]" type="checkbox" value="30"> <span class="checkbox-label">NUEVO BANCO DE ENTRE RÍOS S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-31" name="bancos_otros[]" type="checkbox" value="31"> <span class="checkbox-label">BANCO DE GALICIA Y BUENOS AIRES S.A.</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-32" name="bancos_otros[]" type="checkbox" value="32"> <span class="checkbox-label">BANCO DE LA NACIÓN ARGENTINA</span></label>
+                    </div>
+                    <div class="checkbox">
+                      <label class="checkbox-custom" data-initialize="checkbox"><input id="bancos_otros-33" name="bancos_otros[]" type="checkbox" value="33"> <span class="checkbox-label">BANCO DE LA PROVINCIA DE BUENOS AIRES</span></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- Sector y Actividad -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6" id="sector_actividad">
+              <label class="control-label" for="sector_actividad">Sector de actividad Principal</label> <select class="form-control" id="sector_actividad2" name="sector_actividad" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  Agropecuario
+                </option>
+                <option value="1">
+                  Comercio
+                </option>
+                <option value="2">
+                  Industria y Minería
+                </option>
+                <option value="3">
+                  Servicios
+                </option>
+                <option value="4">
+                  Construcción
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="cat_agropecuario">
+              <label class="control-label" for="cat_agropecuario">Categorías Agropecuario</label> <select class="form-control" disabled id="cat_agropecuario2" name="cat_pyme" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  A. Micro: $2.000.000
+                </option>
+                <option value="1">
+                  B. Pequeña: $13.000.000
+                </option>
+                <option value="2">
+                  C. Tramo 1: $100.000.000
+                </option>
+                <option value="3">
+                  D. Tramo 2: $160.000.000
+                </option>
+                <option value="4">
+                  E. Mas de: $160.000.000
+                </option>
+              </select>
+            </div><!--
+<div id="cat_industria" class="form-group col-xs-12 col-sm-6 col-lg-6 oculto">
+  <label class="control-label" for="cat_agropecuario">Categorías Agropecuario</label>
+  <select disabled class='form-control' name='cat_pyme' id='cat_industria2' required><option disabled selected value=''>===</option><option value='0'>A. Micro: $7.500.000</option><option value='1'>B. Pequeña: $45.500.000</option><option value='2'>C. Tramo 1: $360.000.000</option><option value='3'>D. Tramo 2: $540.000.000 </option><option value='4'>E. Mas de: $540.000.000</option></select></div>
+
+<div id="cat_mineria" class="form-group col-xs-12 col-sm-6 col-lg-6 oculto">
+  <label class="control-label" for="cat_agropecuario">Categorías Agropecuario</label>
+  <select disabled class='form-control' name='cat_pyme' id='cat_mineria2' required><option disabled selected value=''>===</option><option value='0'>A. Micro: $7.500.000</option><option value='1'>B. Pequeña: $45.500.000</option><option value='2'>C. Tramo 1: $360.000.000</option><option value='3'>D. Tramo 2: $540.000.000 </option><option value='4'>E. Mas de: $540.000.000</option></select></div>
+-->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="cat_industria_mineria">
+              <label class="control-label" for="cat_industria_mineria">Categorías Industria y Minería</label> <select class="form-control" disabled id="cat_industria_mineria2" name="cat_pyme" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  A. Micro: $7.500.000
+                </option>
+                <option value="1">
+                  B. Pequeña: $45.500.000
+                </option>
+                <option value="2">
+                  C. Tramo 1: $360.000.000
+                </option>
+                <option value="3">
+                  D.&nbsp;Tramo 2: $540.000.000
+                </option>
+                <option value="4">
+                  E.&nbsp;Mas de: $540.000.000
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="cat_comercio">
+              <label class="control-label" for="cat_comercio">Categorías Comercio</label> <select class="form-control" disabled id="cat_comercio2" name="cat_pyme" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  A.&nbsp;Micro: $9.000.000
+                </option>
+                <option value="1">
+                  B. Pequeña: $9.000.000
+                </option>
+                <option value="2">
+                  C. Tramo 1: $55.000.000
+                </option>
+                <option value="3">
+                  D. Tramo 2: $450.000.000
+                </option>
+                <option value="4">
+                  E. Más de: $450.000.000
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="cat_servicios">
+              <label class="control-label" for="cat_servicios">Categorías Servicios</label> <select class="form-control" disabled id="cat_servicios2" name="cat_pyme" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  A. Micro: $2.500.000
+                </option>
+                <option value="1">
+                  B. Pequeña: $15.000.000
+                </option>
+                <option value="2">
+                  C. Tramo 1: $125.000.000
+                </option>
+                <option value="3">
+                  D. Tramo 2: $160.000.000
+                </option>
+                <option value="4">
+                  E.&nbsp; Mas de: $160.000.000
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="cat_construccion">
+              <label class="control-label" for="cat_construccion">Categorías Construcción</label> <select class="form-control" disabled id="cat_construccion2" name="cat_pyme" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  A. Micro: $3.500.000
+                </option>
+                <option value="1">
+                  B. Pequeña:$22.500.000
+                </option>
+                <option value="2">
+                  C. Tramo 1: $180.000.000
+                </option>
+                <option value="3">
+                  D. Tramo 2: $270.000.000
+                </option>
+                <option value="4">
+                  E. Mas de:$270.000.000
+                </option>
+              </select>
+            </div><!-- PYME (1) -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="tiene_prestamos">
+              <label class="control-label" for="tiene_prestamos">¿Tiene uno o más préstamos bancarios vigentes, vinculados a la actividad de la empresa, que en su totalidad sumen un monto SUPERIOR a $1.000.000?</label> <select class="form-control" disabled id="tiene_prestamos2" name="tiene_prestamos" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="clasificacion_deudores">
+              <label class="control-label" for="clasificacion_deudores">Clasificación de Deudores según BCRA ¿Tiene situación 2 o más?</label> <select class="form-control" disabled id="clasificacion_deudores2" name="clasificacion_deudores" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="tiene_tramite">
+              <label class="control-label" for="tiene_tramite">¿Tiene en trámite un concurso de acreedores?</label> <select class="form-control" disabled id="tiene_tramite2" name="tiene_tramite" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div><!-- PYME BANCARIO (1.1) -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="destino_prestamo">
+              <div class="form-group">
+                <label class="control-label" for="destino_prestamo">Destino del Préstamo</label>
+                <div class="destino_prestamo input-checkbox" id="destinos_rbt">
+                  <div class="checkbox">
+                    <label class="checkbox-custom destinos_rbt" data-initialize="checkbox"><input id="destino_prestamo-0" name="destino_prestamo[]" type="checkbox" value="0"> <span class="checkbox-label">1-Bienes de Capital.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom destinos_rbt" data-initialize="checkbox"><input id="destino_prestamo-1" name="destino_prestamo[]" type="checkbox" value="1"> <span class="checkbox-label">2-Construcciones e instalaciones.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom destinos_rbt" data-initialize="checkbox"><input id="destino_prestamo-2" name="destino_prestamo[]" type="checkbox" value="2"> <span class="checkbox-label">3-Capital de Trabajo.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom destinos_rbt" data-initialize="checkbox"><input id="destino_prestamo-3" name="destino_prestamo[]" type="checkbox" value="3"> <span class="checkbox-label">4- Construcción o adquisición de galpones nuevos o usados para uso industrial.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom destinos_rbt" data-initialize="checkbox"><input id="destino_prestamo-4" name="destino_prestamo[]" type="checkbox" value="4"> <span class="checkbox-label">5- Gastos de mudanza a parques industriales.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom destinos_rbt" data-initialize="checkbox"><input id="destino_prestamo-5" name="destino_prestamo[]" type="checkbox" value="5"> <span class="checkbox-label">8-Otros.</span></label>
+                  </div>
+                </div>
+                <div class="destino_prestamo input-checkbox" id="destinos_fona">
+                  <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox"><input id="destino_prestamo[radio]-0" name="destino_prestamo[radio]" type="radio" value="0"> <span class="checkbox-label">1-Bienes de Capital.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox"><input id="destino_prestamo[radio]-1" name="destino_prestamo[radio]" type="radio" value="1"> <span class="checkbox-label">2-Construcciones e instalaciones.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox"><input id="destino_prestamo[radio]-2" name="destino_prestamo[radio]" type="radio" value="2"> <span class="checkbox-label">3-Capital de Trabajo.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox"><input id="destino_prestamo[radio]-3" name="destino_prestamo[radio]" type="radio" value="3"> <span class="checkbox-label">4- Construcción o adquisición de galpones nuevos o usados para uso industrial.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox"><input id="destino_prestamo[radio]-4" name="destino_prestamo[radio]" type="radio" value="4"> <span class="checkbox-label">5- Gastos de mudanza a parques industriales.</span></label>
+                  </div>
+                  <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox"><input id="destino_prestamo[radio]-5" name="destino_prestamo[radio]" type="radio" value="5"> <span class="checkbox-label">8-Otros.</span></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="sectores_proyecto">
+              <label class="control-label" for="sectores_proyecto">Sector al que pertenece la actividad a ser financiada</label> <select class="form-control" disabled id="sectores_proyecto2" name="sectores_proyecto" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  1.Automotriz y Autopartista;
+                </option>
+                <option value="1">
+                  2.Maquinaria Agrícola;
+                </option>
+                <option value="2">
+                  3.Biotecnología;
+                </option>
+                <option value="3">
+                  4.Industria farmacéutica;
+                </option>
+                <option value="4">
+                  5.Manufacturas especializadas, orientadas a fortalecer diseño y uso de base a mano de obra calificada;
+                </option>
+                <option value="5">
+                  6.Agroindustria;
+                </option>
+                <option value="6">
+                  7.Productos médicos (s/ ANMAT);
+                </option>
+                <option value="7">
+                  8.Software, TICS, Servicios Audiovisual, Serv. Profesionales y Serv. de invest. clínica y serv. KIBS;
+                </option>
+                <option value="8">
+                  9.Industrias Creativas (audiovisual, videojuegos, editorial, artes escénicas);
+                </option>
+                <option value="9">
+                  10.Proveedores (servicios especializados y bienes de capital) para el sector minero, petróleo, gas, e industrias extractivas y energías renovables;
+                </option>
+                <option value="10">
+                  11.Proveedores del sector aeronáutico, aerospacial, naval y ferroviario;
+                </option>
+                <option value="11">
+                  12.Foresto-Industrial, incluyendo muebles, biomasa y dendroenergía.
+                </option>
+                <option value="12">
+                  13.Turismo
+                </option>
+                <option value="13">
+                  14.Ninguno de los anteriores
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="parque_industria">
+              <label class="control-label" for="parque_industria">Está situado o por situarse en un parque industrial?</label> <select class="form-control" disabled id="parque_industria2" name="parque_industria" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="monto_prestamo">
+              <label class="control-label" for="monto_prestamo">Indique Monto del préstamo solicitado en PESOS($)</label> <input class="form-control" disabled="true" id="monto_prestamo2" min="0" name="monto_prestamo" placeholder="$" required="" type="number">
+            </div><!-- PYME NO BANCARIO -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="concurso_homologado">
+              <label class="control-label" for="concurso_homologado">El concurso se encuentra homologado?</label> <select class="form-control" disabled id="concurso_homologado2" name="concurso_homologado" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="sectores_proyecto_nobanc">
+              <label class="control-label" for="sectores_proyecto">Sector al que pertenece la actividad a ser financiada</label> <select class="form-control" disabled id="sectores_proyecto_nobanc2" name="sectores_proyecto_nobanc" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  1.Automotriz y Autopartista;
+                </option>
+                <option value="1">
+                  2.Maquinaria Agrícola;
+                </option>
+                <option value="2">
+                  3.Biotecnología;
+                </option>
+                <option value="3">
+                  4.Industria farmacéutica;
+                </option>
+                <option value="4">
+                  5.Manufacturas especializadas, orientadas a fortalecer diseño y uso de base a mano de obra calificada;
+                </option>
+                <option value="5">
+                  6.Agroindustria;
+                </option>
+                <option value="6">
+                  7.Productos médicos (s/ ANMAT);
+                </option>
+                <option value="7">
+                  8.Software, TICS, Servicios Audiovisual, Serv. Profesionales y Serv. de invest. clínica y serv. KIBS;
+                </option>
+                <option value="8">
+                  9.Industrias Creativas (audiovisual, videojuegos, editorial, artes escénicas);
+                </option>
+                <option value="9">
+                  10.Proveedores (servicios especializados y bienes de capital) para el sector minero, petróleo, gas, e industrias extractivas y energías renovables;
+                </option>
+                <option value="10">
+                  11.Proveedores del sector aeronáutico, aerospacial, naval y ferroviario;
+                </option>
+                <option value="11">
+                  12.Foresto-Industrial, incluyendo muebles, biomasa y dendroenergía.
+                </option>
+                <option value="12">
+                  13.Turismo
+                </option>
+                <option value="13">
+                  14.Ninguno de los anteriores
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="destino_prestamo_nobanc">
+              <label class="control-label" for="destino_prestamo_nobanc">Destino del Préstamo</label> <select class="form-control" disabled id="destino_prestamo_nobanc2" name="destino_prestamo_nobanc" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  1-Bienes de Capital, Construcciones e instalaciones.
+                </option>
+                <option value="1">
+                  2-Capital de Trabajo.
+                </option>
+                <option value="2">
+                  3-Otros.
+                </option>
+              </select>
+            </div><!-- MONTOS -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="monto_solicitado_bienes_cap">
+              <label class="control-label" for="monto_solicitado_bienes_cap">Monto del préstamo solicitado en PESOS($)</label> <select class="form-control" disabled id="monto_solicitado_bienes_cap2" name="monto_solicitado" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  1.Hasta $3 millones
+                </option>
+                <option value="1">
+                  2.Más de $3 millones
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="monto_solicitado_inversion_prod">
+              <label class="control-label" for="monto_solicitado_inversion_prod">Monto del préstamo solicitado en PESOS($)</label> <select class="form-control" disabled id="monto_solicitado_inversion_prod2" name="monto_solicitado" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  1.Hasta $1.5 millones
+                </option>
+                <option value="1">
+                  2.Más de $1.5 millones
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="monto_solicitado_otros">
+              <label class="control-label" for="monto_solicitado_otros">Indique Monto del préstamo solicitado en PESOS($)</label> <input class="form-control" disabled="true" id="monto_solicitado_otros2" min="0" name="monto_solicitado_otros" placeholder="$" required="" type="number">
+            </div><!-- GRAN EMPRESA -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="destino_prestamo_gran">
+              <label class="control-label" for="destino_prestamo_gran">Destino del Préstamo</label> <select class="form-control" disabled id="destino_prestamo_gran2" name="destino_prestamo_gran" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  1-Bienes de Capital, Construcciones e instalaciones.
+                </option>
+                <option value="1">
+                  2-Capital de Trabajo.
+                </option>
+                <option value="2">
+                  3-Otros.
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="sectores_proyecto_gran">
+              <label class="control-label" for="situacion_2_gran">Sector al que pertenece la actividad a ser financiada</label> <select class="form-control" disabled id="sectores_proyecto_gran2" name="sectores_proyecto_gran" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  1.Automotriz y Autopartista;
+                </option>
+                <option value="1">
+                  2.Maquinaria Agrícola;
+                </option>
+                <option value="2">
+                  3.Biotecnología;
+                </option>
+                <option value="3">
+                  4.Industria farmacéutica;
+                </option>
+                <option value="4">
+                  5.Manufacturas especializadas, orientadas a fortalecer diseño y uso de base a mano de obra calificada;
+                </option>
+                <option value="5">
+                  6.Agroindustria;
+                </option>
+                <option value="6">
+                  7.Productos médicos (s/ ANMAT);
+                </option>
+                <option value="7">
+                  8.Software, TICS, Servicios Audiovisual, Serv. Profesionales y Serv. de invest. clínica y serv. KIBS;
+                </option>
+                <option value="8">
+                  9.Industrias Creativas (audiovisual, videojuegos, editorial, artes escénicas);
+                </option>
+                <option value="9">
+                  10.Proveedores (servicios especializados y bienes de capital) para el sector minero, petróleo, gas, e industrias extractivas y energías renovables;
+                </option>
+                <option value="10">
+                  11.Proveedores del sector aeronáutico, aerospacial, naval y ferroviario;
+                </option>
+                <option value="11">
+                  12.Foresto-Industrial, incluyendo muebles, biomasa y dendroenergía.
+                </option>
+                <option value="12">
+                  13.Turismo
+                </option>
+                <option value="13">
+                  14.Ninguno de los anteriores
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="monto_prestamo_gran">
+              <label class="control-label" for="monto_prestamo_gran">Indique Monto del préstamo solicitado en PESOS($)</label> <input class="form-control" disabled="true" id="monto_prestamo_gran2" min="0" name="monto_prestamo_gran" placeholder="$" required="" type="number">
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="situacion_2_gran">
+              <label class="control-label" for="situacion_2_gran">Clasificación de Deudores según BCRA ¿Tiene situación 2 o más?</label> <select class="form-control" disabled id="situacion_2_gran2" name="situacion_2_gran" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="deuda_afip_gran">
+              <label class="control-label" for="deuda_afip_gran">Deuda con Afip de más de 2 periodos</label> <select class="form-control" disabled id="deuda_afip_gran2" name="deuda_afip_gran" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="signo_negativo_gran">
+              <label class="control-label" for="signo_negativo_gran">Más de dos Resultado Neto últimos 3 ejercicios con signo negativo</label> <select class="form-control" disabled id="signo_negativo_gran2" name="signo_negativo_gran" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="endeudamiento_gran">
+              <label class="control-label" for="Endeudamiento_gran">Endeudamiento: (Pasivo/Patrimonio Neto) &gt; 1,5</label> <select class="form-control" disabled id="endeudamiento_gran2" name="endeudamiento_gran" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="liquidez_gran">
+              <label class="control-label" for="Liquidez_gran">Liquidez (Activo Cte. / Pasivo Cte.) &lt; 1</label> <select class="form-control" disabled id="liquidez_gran2" name="liquidez_gran" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="capital_trabajo">
+              <label class="control-label" for="capital_trabajo">Capital de Trabajo: (Activo Cte. - Pasivo Cte.) &lt; 0</label> <select class="form-control" disabled id="capital_trabajo2" name="capital_trabajo" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  No
+                </option>
+                <option value="1">
+                  Si
+                </option>
+              </select>
+            </div><!-- FIN FORMULARIO -->
+            <div class="form-group col-xs-12 col-sm-12 col-lg-12" id="enviar">
+              <label class="control-label" for="enviar"></label>
+              <div class="text-right">
+                <input class="btn btn-primary" type="submit" value="Siguiente" style="background-color: #286090 !important;">
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+<!--     <footer style="width: 100%; float:left; margin-top:20px; background:#F0F1F1;">
+      <div class="col-xs-12 col-sm-12 col-md-12 footer-texto">
+        <a class="logofoter" href="http://www.produccion.gob.ar/"><img src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/Logo-ministerio.png" width="230"></a>
+      </div>
+    </footer> -->
+  </div>
+
+
+</body>
+</html>

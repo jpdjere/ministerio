@@ -15,11 +15,20 @@ function startFormulario(){
 
 setTimeout(showTitle, 500);
 
-$(document).on('focusout', 'input', function() {
+$(document).on('focusout', 'input',function() {
 	$(this).removeClass('inputCorrect');
     $(this).addClass('inputFull');
 });
-$(document).on('focusin', 'input', function() {
+$(document).on('focusin', 'input',function() {
+    $(this).removeClass('inputFull');
+    $(this).addClass('inputCorrect');
+});
+
+$(document).on('focusout', 'select',function() {
+	$(this).removeClass('inputCorrect');
+    $(this).addClass('inputFull');
+});
+$(document).on('focusin', 'select',function() {
     $(this).removeClass('inputFull');
     $(this).addClass('inputCorrect');
 });

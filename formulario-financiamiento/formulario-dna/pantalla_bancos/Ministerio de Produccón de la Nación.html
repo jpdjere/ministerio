@@ -1,0 +1,171 @@
+<!-- saved from url=(0152)http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/financiamiento/mostrar_formulario_bancos_pyme_bancario/form_entrada/QPFC/584ed1ce0ac695020867095f -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>Ministerio de Produccón de la Nación</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="./Ministerio de Produccón de la Nación_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="./Ministerio de Produccón de la Nación_files/estilo.css" rel="stylesheet">
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/jquery.min.js">
+  </script>
+  <link href="http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/assets/images/cropped-Escudo-01.png" rel="shortcut icon" type="image/png">
+  <link href="./Ministerio de Produccón de la Nación_files/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="./Ministerio de Produccón de la Nación_files/css" rel="stylesheet" type="text/css">
+
+  <link href="../styles.css" rel="stylesheet" type="text/css">
+
+
+
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/bootstrap.min.js">
+  </script>
+  <script type="text/javascript">
+  var base_url="http://sepyme.produccion.gob.ar/dna2bpm/";
+  </script>
+  <script src="./Ministerio%20de%20Producc%C3%B3n%20de%20la%20Naci%C3%B3n_files/respuesta_pyme_bancario.js">
+  </script>
+  <title>Documento sin título</title>
+</head>
+<body>
+  <div class="col-sm-12 contenedor">
+
+
+    <header class="header">
+      <div class="">
+        <a class="" href="http://www.produccion.gob.ar/" style="margin-left: 120px;"><img class="logo" src="http://www.produccion.gob.ar/wp-content/uploads/2016/12/LogoMinProd_AGO-01.png" width="260"></a>
+      </div>
+    </header>
+    <div class="notHeaderBancos">
+
+
+    <section class="formulario_unico" style="height:100%">
+
+      <div class="col-sm-12" style="height:100%;background-color: white;">
+        <form action="http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/financiamiento/guardar_datos_extra" class="formulario" method="post">
+          <fieldset>
+            <!-- Campos ocultos -->
+            <input id="idwf" name="idwf" type="hidden" value="form_entrada">
+            <input id="idcase" name="idcase" type="hidden" value="QPFC">
+            <input id="token" name="token" type="hidden" value="584ed1ce0ac695020867095f">
+            <input name="volver" type="hidden" value="0">
+            <div class="alert alert-success">
+              Según los datos enviados, tu empresa podría calificar a las siguientes línea(s): Régimen de bonificación de tasas (RBT)
+            </div>
+            <!-- RBT -->
+            <div class="form-group col-xs-10 col-xs-offset-1" id="rbt" style="display: block;">
+              <label class="control-label" for="rbt">Seleccioná los bancos disponibles a través de los cuales vas a poder acceder a RBT</label> 
+              <select class="form-control" id="rbt2" name="rbt" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  BNA
+                </option>
+                <option value="1">
+                  BICE
+                </option>
+                <option value="2">
+                  CIUDAD
+                </option>
+                <option value="3">
+                  BAPRO
+                </option>
+              </select>
+            </div><!-- RBT FONDEAR -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="rbt_ct_fondear">
+              <label class="control-label" for="rbt">Seleccioná los bancos disponibles a través de los cuales vas a poder acceder a RBT CAPITAL DE TRABAJO FONDEAR</label> <select class="form-control" disabled id="rbt_ct_fondear2" name="rbt_ct_fondear" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  BANCO DE LA PROVINCIA DE BUENOS AIRES
+                </option>
+                <option value="1">
+                  BANCO DE LA CIUDAD DE BUENOS AIRES
+                </option>
+                <option value="2">
+                  BANCO DE LA NACIÓN ARGENTINA
+                </option>
+                <option value="3">
+                  BANCO SUPERVIELLE S.A.
+                </option>
+                <option value="4">
+                  BANCO MACRO S.A.
+                </option>
+              </select>
+            </div><!-- RBT CT BAPRO -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="rbt_ct_bapro">
+              <label class="control-label" for="rbt">SSeleccioná los bancos disponibles a través de los cuales vas a poder acceder a RBT CAPITAL DE TRABAJO BAPRO</label> <select class="form-control" disabled id="rbt_ct_bapro2" name="rbt_ct_bapro" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  BANCO DE LA PROVINCIA DE BUENOS AIRES
+                </option>
+              </select>
+            </div><!-- PARQUES -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="parques">
+              <label class="control-label" for="parques">Seleccioná los bancos disponibles a través de los cuales vas a poder acceder a PARQUES</label> <select class="form-control" disabled id="parques2" name="parques" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  BNA
+                </option>
+                <option value="1">
+                  CIUDAD
+                </option>
+                <option value="2">
+                  BAPRO
+                </option>
+              </select>
+            </div><!-- MI GALPON -->
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6 oculto" id="mi_galpon">
+              <label class="control-label" for="mi_galpon">Seleccioná los bancos disponibles a través de los cuales vas a poder acceder a MI GALPÓN</label> <select class="form-control" disabled id="mi_galpon2" name="mi_galpon" required="">
+                <option disabled selected value="">
+                  ---
+                </option>
+                <option value="0">
+                  BNA
+                </option>
+                <option value="1">
+                  CIUDAD
+                </option>
+                <option value="2">
+                  BAPRO
+                </option>
+              </select>
+            </div>
+            <!-- TODOS LOS BANCOS 
+<div id="otros" class="form-group col-xs-12 col-sm-6 col-lg-6 oculto">
+  <label class="control-label" for="otros">Seleccione el/los bancos con los cuales trabaja para futuras lineas disponibles</label>
+  <select required disabled class='form-control' name='otros' id='otros2'><option selected disabled value=''>===</option><option value='0'>Ninguna de las opciones</option><option value='1'>INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.</option><option value='2'>CITIBANK N.A.</option><option value='3'> BBVA BANCO FRANCÉS S.A.</option><option value='4'>BANCO DE LA PROVINCIA DE CÓRDOBA S.A.</option><option value='5'>BANCO SUPERVIELLE S.A.</option><option value='6'> BANCO DE LA CIUDAD DE BUENOS AIRES</option><option value='7'>BANCO PATAGONIA S.A.</option><option value='8'>BANCO HIPOTECARIO S.A.</option><option value='9'> BANCO DE SAN JUAN S.A.</option><option value='10'>BANCO DEL TUCUMÁN S.A.</option><option value='11'>BANCO MUNICIPAL DE ROSARIO</option><option value='12'> BANCO SANTANDER RÍO S.A.</option><option value='13'>BANCO DEL CHUBUT S.A.</option><option value='14'>BANCO DE SANTA CRUZ S.A.</option><option value='15'>BANCO DE LA PAMPA SOCIEDAD DE ECONOMÍA MIXTA</option><option value='16'>BANCO DE CORRIENTES S.A.</option><option value='17'> BANCO PROVINCIA DEL NEUQUÉN S.A.</option><option value='18'>HSBC BANK ARGENTINA S.A.</option><option value='19'>BANCO CREDICOOP COOPERATIVO LIMITADO</option><option value='20'> BANCO ITAÚ ARGENTINA S.A.</option><option value='21'>BANCO PROVINCIA DE TIERRA DEL FUEGO</option><option value='22'>BANCO MACRO S.A.</option><option value='23'>BANCO COMAFI S.A.</option><option value='24'>BANCO DE INVERSIÓN Y COMERCIO EXTERIOR S.A.</option><option value='25'>NUEVO BANCO DE LA RIOJA S.A.</option><option value='26'> NUEVO BANCO DEL CHACO S.A.</option><option value='27'>BANCO DE FORMOSA S.A.</option><option value='28'>BANCO DE SANTIAGO DEL ESTERO S.A.</option><option value='29'>NUEVO BANCO DE SANTA FE S.A.</option><option value='30'>NUEVO BANCO DE ENTRE RÍOS S.A.</option><option value='31'>BANCO DE GALICIA Y BUENOS AIRES S.A.</option><option value='32'> BANCO DE LA NACIÓN ARGENTINA</option><option value='33'>BANCO DE LA PROVINCIA DE BUENOS AIRES</option></select></div>-->
+            <!-- FIN FORMULARIO -->
+            <div class="form-group col-xs-12 col-sm-12 col-lg-12" id="enviar">
+              <label class="control-label" for="enviar"></label>
+              <div class="text-right">
+                <input class="btn btn-primary" type="submit" value="Enviar">
+              </div>
+            </div>
+          </fieldset>
+        </form>
+
+
+        <form action="http://sepyme.produccion.gob.ar/dna2bpm/financiamiento/financiamiento/guardar_datos_extra" method="post">
+          <!-- Campos ocultos -->
+          <input name="idwf" type="hidden" value="form_entrada"><input name="idcase" type="hidden" value="QPFC"><input name="token" type="hidden" value="584ed1ce0ac695020867095f"><input name="token" type="hidden" value="584ed1ce0ac695020867095f"><input name="volver" type="hidden" value="1">
+          <div class="form-group col-xs-12 col-sm-12 col-lg-12" id="volver" style="margin-top:160px;">
+            <label class="control-label" style="font-size:13px !important;">Para modificar los datos ingresados o volver a empezar hacé click acá:</label>
+            <div class="">
+              <input class="btn btn-primary" type="submit" value="Volver">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    </div>
+  </div>
+  <script type="text/javascript" src="../styles.js"></script>
+
+</body>
+</html>

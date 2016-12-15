@@ -1,0 +1,106 @@
+.header{
+	height:85px;
+	box-shadow: 15px 11px 43px -28px;
+	background-color: white;
+}
+
+.fsBody{
+	padding:0px !important;
+	background-image:none !important;
+	background-color:white !important;
+}
+
+.logo{
+	margin-left: 255px;
+    margin-top: 10px !important;
+}
+
+
+.tituloGroup{
+	opacity:0;
+	/*background-image:url('http://www.produccion.gob.ar/wp-content/uploads/2016/02/Barco-MDQ_Edit-copia.jpg');*/
+	background-image:url('http://www.produccion.gob.ar/wp-content/uploads/2016/03/Puerto14.jpg');
+	background-position-y: -208px;
+/*	background-image:url('http://www.produccion.gob.ar/wp-content/uploads/2016/03/Puerto09.jpg');
+	background-image:url('http://www.produccion.gob.ar/wp-content/uploads/2016/03/Puerto07.jpg');
+	background-image:url('http://www.produccion.gob.ar/wp-content/uploads/2016/03/monitor.jpg');
+	background-image:url('http://www.produccion.gob.ar/wp-content/uploads/2016/05/Exportacion_1.png');*/
+	background-size: cover;
+	height:431px;
+	margin-top: 40px;
+	transition: all ease 1s;
+}
+
+.opacity1{
+	opacity: 1 !important;
+	transition: all ease 1s;
+}
+.fondoDeTitulos{
+    margin-top: 4%;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 0.78);
+    border-radius: 20px;
+}
+
+.titulo{
+    border: 0 none !important;
+    color: #f3f3f3 !important;
+    font-size: 50px !important;
+    text-align: center !important;
+    text-transform: uppercase;
+    width: 100%;
+    /*float: left;*/
+    margin-top: 60px !important;
+}
+
+.subtitulo{
+	color:white;
+	margin-top: 35px !important;
+    text-align: center;
+    font-size: 23px;
+    padding: 0 100px 0 100px !important;
+}
+
+
+
+
+
+.preguntas{
+	background-color: white;
+	display:none;
+	opacity:0;
+	margin-top: -1px;
+}
+.visiblePreguntas{
+	display:block;
+	opacity:1;
+	transition: all ease 1s;
+}
+.vanishTituloGroup{
+	margin-top:0px;
+	height:0px;
+	visibility: hidden;
+	transform: translateY(-700px) !important;
+	transition: all ease 1s;
+
+}
+.vanishFondoDeTitulos{
+    margin-top: 0;
+    height: 0;
+    /*background-color: rgba(0, 0, 0, 0.78);*/
+    border-radius: 20px;
+	transition: all ease 1s;
+
+}
+.vanishTitulo{
+	opacity: 0;
+	transform: translateY(-700px) !important;
+	transition: all ease 1s;
+}
+
+
+
+.tituloSeccion{
+	margin-top: 35px !important;
+	padding:0 !important
+}

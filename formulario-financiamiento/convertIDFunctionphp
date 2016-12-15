@@ -21,19 +21,28 @@ function convertID($arg_1)
 	        return "mail";
 	    case 38007661:
 	        return "compartir_efis";
+	    case 38157070: case 38157062:			// CORREGIR ESTO
+	        return "bancos_otros"; 
+	    case 38007662:
+	        return "sector_actividad"; 	 
+	    case 38007600:
+	        return "cat_agropecuario"; 	 
+	    case 38007601:
+	        return "destino_prestamo";
+	    case 38007602:
+	        return "sectores_proyecto";
+	    case 38007603:
+	        return "monto_prestamo"; 	
+	    case 38007663:
+	        return "clasificacion_deudores"; 		    
+	    case 38007663:
+	        return "clasificacion_deudores"; 							
 
 	}
 }
 
 ?>
 
-
-id="cargo"
-id="telefono"
-id="mail"
-$id = 'compartir_efis'  si/no
-$id = 'bancos_otros'  bancos
-$id = 'sector_actividad'  lista
 $id = 'cat_agropecuario'
 $id = 'cat_industria'
 $id = 'cat_mineria'

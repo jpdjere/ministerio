@@ -1,3 +1,42 @@
+html{
+
+}
+
+body{
+/*	background:#0072bc;
+	background:white;*/
+}
+
+.header{
+	height:85px;
+	box-shadow: 15px 11px 43px -28px;
+}
+
+.notHeader{
+	width:100%;
+	background-color: #286090;
+/*	background-image: -webkit-linear-gradient(top,#286090);
+    background-image: -moz-linear-gradient(top, #286090);*/
+
+}
+.notHeaderBancos{
+	height:calc(100vh - 90px);
+	margin-top: 5px;
+	width:100%;
+	background-color: #286090;
+/*	background-image: -webkit-linear-gradient(top,#286090);
+    background-image: -moz-linear-gradient(top, #286090);*/
+
+}
+
+.logo{
+	margin-left: 255px;
+    margin-top: 10px;
+}
+
+
+
+
 .tituloGroup{
 	opacity:0;
 	background-image:url('http://www.produccion.gob.ar/wp-content/uploads/2016/02/PYME-1.jpg');
@@ -21,12 +60,18 @@
     text-align: center !important;
     text-transform: uppercase;
     width: 100%;
-    float: left;
+    /*float: left;*/
     margin-top: 60px;
 }
 
 .subtitulo{
 	color:white;
+}
+
+
+
+input, select{
+	border-radius:8px !important;
 }
 
 .opacity1{
@@ -36,9 +81,10 @@
 }
 
 .preguntas{
-
+	background-color: white;
 	display:none;
 	opacity:0;
+	margin-top: -1px;
 }
 
 .visiblePreguntas{
@@ -75,15 +121,54 @@
 .inputFull{
 	background-color: rgba(0,0,0,0) !important;
 	padding-left:0px;
+	border-radius:10px;
 	transition: all ease 1s;
 }
 
 .inputCorrect{
 	background-color: #f1f2f2 !important;
+	border-radius:10px;
 	transition: all ease 1s;
 }
 
 label{
 	font-size:16px;
+}
 
+
+
+
+/*-----------css para Bancos multiple select-----------------------*/
+@media ( max-width: 640px ) {
+
+	.preguntas{
+		position: absolute;
+	}
+
+
+	.fondoDeTitulos{
+		background-color:transparent;
+	}
+
+	.titulo{
+
+		padding: 0px 10px 0px 10px;
+    	font-size: 38px !important;
+	}
+
+	.subtitulo{
+
+
+		padding: 0px 10px 0px 10px;		
+	}
+
+
+	.logo{
+		 margin-left: 42px !important;
+   		 margin-top: -3px !important;
+	}
+
+	.notHeader{
+		background-color: white;
+	}
 }

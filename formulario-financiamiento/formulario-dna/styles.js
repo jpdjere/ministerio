@@ -10,6 +10,8 @@ function startFormulario(){
 	$('#preguntas').addClass("visiblePreguntas");
 	$('.titulo').addClass("vanishTitulo");
 	$('.subtitulo').addClass("vanishTitulo");
+	$('.notHeader').css("overflow","auto");
+
 
 }
 
@@ -25,10 +27,19 @@ $(document).on('focusin', 'input',function() {
 });
 
 $(document).on('focusout', 'select',function() {
-	$(this).removeClass('inputCorrect');
-    $(this).addClass('inputFull');
+	if( $(this).attr('id') !== "bancosSelect"){
+
+		$(this).removeClass('inputCorrect');
+    	$(this).addClass('inputFull');
+	}
 });
 $(document).on('focusin', 'select',function() {
-    $(this).removeClass('inputFull');
-    $(this).addClass('inputCorrect');
+	if( $(this).attr('id') !== "bancosSelect"){
+
+	    $(this).removeClass('inputFull');
+	    $(this).addClass('inputCorrect');
+	}
+
 });
+
+

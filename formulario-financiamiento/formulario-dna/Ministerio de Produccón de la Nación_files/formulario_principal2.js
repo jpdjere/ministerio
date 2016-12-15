@@ -118,7 +118,7 @@ function validaciones_especiales(){
 		}
 	}
 
-	//todos_los_bancos
+	// //todos_los_bancos
 	var checkboxgroupcount2 = $(".bancos_otros :checkbox:checked").length;
 	if(checkboxgroupcount2<1){
 		$("#bancos_otros-checkbox-text")[0].setCustomValidity("Completa este campo");
